@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media Query Example</title>
+	<style >
+		body {
+			color: red;
+			font-size: 120%;
+		}
+
+		p {
+			border: 1px solid black;
+			margin-bottom: 15px;
+		}
+
+		#p1 {
+			background-color: #3112C8;
+			width: 300px;
+			height: 300px;
+		}
+
+		#p2 {
+			background-color: #F9560F;
+			width: 100px;
+			height: 100px;
+		}
+/**** Large devices *****/
+@media (min-width: 1200px) {
+	#p1 {
+		width: 80%;
+	}
+
+	#p2 {
+
+		width: 150px;
+		height: 150px;
+	}
+}
+
+/**** Medium size devices ****/
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+
+		#p1 {
+			width: 50%;
+			background-color: #60F90F;
+		}
+
+		#p2 {
+			width: 100px;
+			height: 100px;
+			background-color: #F4F90F;
+		}
+	}
+
+		@media (max-width: 500px) {
+			body {
+				color: blue;
+			}
+		} 
+
+		@media print {
+			body {
+				color: green;
+			}
+		}
+
+		@media (orientation: landscape) {
+			.tile {
+				color : black;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1 class="title">Title</h1>
+	<h2 class="subTitle">Sub Title </h2>
+	<p id="p1"></p>
+	<p id="p2"></p>
+
+</body>
+</html>

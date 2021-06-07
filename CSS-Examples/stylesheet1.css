@@ -1,0 +1,48 @@
+
+h1 {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+div {
+	background-color: #ff8080;
+}
+
+div p {
+	height : 100px;
+	width : 60px;
+	border: 2px solid #000000;
+	/*float: left;*/
+	margin-right: 10px;
+
+	
+}
+section {
+	clear: left;
+	
+}
+#p1 {
+	background-color: #FFFF00;
+	float: left;
+	
+
+}
+
+#p2 {
+	background-color: #00FFFF;
+	float: right;
+	
+
+	
+}
+
+#p3 {
+	background-color: #00FF00;
+	clear: right;
+	
+}
+
+#p4 {
+	background-color: #FF0000;
+	
+	}

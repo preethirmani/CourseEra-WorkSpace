@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Combining Selectors</title>
+	<style >
+		/* every p element with class blue */
+		p.blue {
+			color: blue;
+			text-align: center;
+			font-style: italic;
+		}
+
+		/* child Selector */
+		/*nEvery P direct child of article */
+
+		article > p {
+			text-align: center;
+			background-color: blue;
+			opacity: 0.4;
+			color: orange;
+
+		}
+
+		/* Descendent selector */
+		/* Every P element that is inside article at any level */
+
+		article p {
+			text-align : right;
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+<body>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ornare dui ac eleifend. Sed faucibus tristique ipsum, nec tempus lorem scelerisque a. Curabitur consequat velit ac quam dapibus, id feugiat enim porttitor. Nunc tellus augue, venenatis quis ultrices sed, venenatis porttitor neque. Praesent lacinia nunc turpis, eu dictum nibh fringilla hendrerit. Curabitur sed eleifend nisi, et lacinia eros. Proin in sagittis turpis. Sed mollis, sapien sed rutrum ultrices, velit eros vulputate erat, nec vehicula risus eros id diam.
+</p>
+<div class="blue">
+<h2 align="center" class="blue">  Paragraph with class blue </h2>
+<p class="blue">
+
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ornare dui ac eleifend. Sed faucibus tristique ipsum, nec tempus lorem scelerisque a. Curabitur consequat velit ac quam dapibus, id feugiat enim porttitor. Nunc tellus augue, venenatis quis ultrices sed, venenatis porttitor neque. Praesent lacinia nunc turpis, eu dictum nibh fringilla hendrerit. Curabitur sed eleifend nisi, et lacinia eros. Proin in sagittis turpis. Sed mollis, sapien sed rutrum ultrices, velit eros vulputate erat, nec vehicula risus eros id diam.
+</p>
+</div>
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ornare dui ac eleifend. Sed faucibus tristique ipsum, nec tempus lorem scelerisque a. Curabitur consequat velit ac quam dapibus, id feugiat enim porttitor. Nunc tellus augue, venenatis quis ultrices sed, venenatis porttitor neque. Praesent lacinia nunc turpis, eu dictum nibh fringilla hendrerit. Curabitur sed eleifend nisi, et lacinia eros. Proin in sagittis turpis. Sed mollis, sapien sed rutrum ultrices, velit eros vulputate erat, nec vehicula risus eros id diam.
+</p>
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ornare dui ac eleifend. Sed faucibus tristique ipsum, nec tempus lorem scelerisque a. Curabitur consequat velit ac quam dapibus, id feugiat enim porttitor. Nunc tellus augue, venenatis quis ultrices sed, venenatis porttitor neque. Praesent lacinia nunc turpis, eu dictum nibh fringilla hendrerit. Curabitur sed eleifend nisi, et lacinia eros. Proin in sagittis turpis. Sed mollis, sapien sed rutrum ultrices, velit eros vulputate erat, nec vehicula risus eros id diam.
+</p>
+<article>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ornare dui ac eleifend. Sed faucibus tristique ipsum, nec tempus lorem scelerisque a. Curabitur consequat velit ac quam dapibus, id feugiat enim porttitor. Nunc tellus augue, venenatis quis ultrices sed, venenatis porttitor neque. Praesent lacinia nunc turpis, eu dictum nibh fringilla hendrerit. Curabitur sed eleifend nisi, et lacinia eros. Proin in sagittis turpis. Sed mollis, sapien sed rutrum ultrices, velit eros vulputate erat, nec vehicula risus eros id diam.
+	</p>
+</article>
+<article>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ornare dui ac eleifend. Sed faucibus tristique ipsum, nec tempus lorem scelerisque a. Curabitur consequat velit ac quam dapibus, id feugiat enim porttitor. Nunc tellus augue, venenatis quis ultrices sed, venenatis porttitor neque. Praesent lacinia nunc turpis, eu dictum nibh fringilla hendrerit. Curabitur sed eleifend nisi, et lacinia eros. Proin in sagittis turpis. Sed mollis, sapien sed rutrum ultrices, velit eros vulputate erat, nec vehicula risus eros id diam.</p>
+	</div>
+</article>
+
+<article>
+	<div>
+	<div>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ornare dui ac eleifend. Sed faucibus tristique ipsum, nec tempus lorem scelerisque a. Curabitur consequat velit ac quam dapibus, id feugiat enim porttitor. Nunc tellus augue, venenatis quis ultrices sed, venenatis porttitor neque. Praesent lacinia nunc turpis, eu dictum nibh fringilla hendrerit. Curabitur sed eleifend nisi, et lacinia eros. Proin in sagittis turpis. Sed mollis, sapien sed rutrum ultrices, velit eros vulputate erat, nec vehicula risus eros id diam.
+	</p>
+</div>
+</div>
+</article>
+<article>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque ornare dui ac eleifend. Sed faucibus tristique ipsum, nec tempus lorem scelerisque a. Curabitur consequat velit ac quam dapibus, id feugiat enim porttitor. Nunc tellus augue, venenatis quis ultrices sed, venenatis porttitor neque. Praesent lacinia nunc turpis, eu dictum nibh fringilla hendrerit. Curabitur sed eleifend nisi, et lacinia eros. Proin in sagittis turpis. Sed mollis, sapien sed rutrum ultrices, velit eros vulputate erat, nec vehicula risus eros id diam.</p>
+	</div>
+</article>
+
+
+</body>
+</html>

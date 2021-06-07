@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Floating Elements</title>
+	<style >
+		.service h2, .service p {
+			text-align: center;
+			margin: 10px 0;
+		}
+
+		.service {
+			float: left;
+			background-color: #eee;
+			width: 29%;
+			padding: 1%;
+			margin: 1%;
+		}
+
+		.content {
+			background-color: #eee;
+			margin: 10px 1px;
+			border: 1px solid blue;
+			clear: left;
+		
+		}
+		
+		.services:after{
+			content: "";
+			display: block;
+			clear: both;
+
+		}
+
+		.column {
+			float: left;
+			width: 46%;
+			box-sizing: border-box;
+			padding: 1%;
+			margin: 1%;
+			background-color: #f2f2f2;
+
+		}
+
+		.columns {
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		.service:nth-child(1) {
+			position: relative;
+			top: 5px;
+		}
+
+		.service:nth-child(2) {
+			position: relative;
+			top: 15px;
+		}
+
+		.service:nth-child(3) {
+			position: relative;
+			top: 25px;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		#banner {
+			max-height: 300px;
+			overflow: hidden;
+			position: relative;
+			margin: 1%;
+		}
+
+		#banner h2 {
+			position: absolute;
+			top: 30px;
+			width: 100%
+
+			
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<header id="banner">
+		<img src="lotus.jpeg" alt="lotus picture">
+		<h2 align="center" tabindex="">Serence.... What do you think???</h2>
+	</header>
+	<div class="services">
+	<div class="service">
+		<h2>Service 1</h2>
+		<p>This is Service 1 </p>
+	</div>
+	<div class="service">
+		<h2>Service 2</h2>
+		<p>This is Service 2</p>
+	</div>
+	<div class="service">
+		<h2>Service 3</h2>
+		<p>This is Service 3</p>
+	</div>
+	</div>
+	<div class="content">
+		<h2>Content</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut sem. Sed sed risus pretium quam vulputate dignissim suspendisse. Elit sed vulputate mi sit amet. Risus nec feugiat in fermentum posuere urna nec tincidunt. Semper auctor neque vitae tempus quam. Blandit cursus risus at ultrices mi tempus imperdiet. A diam maecenas sed enim ut sem viverra. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Lorem donec massa sapien faucibus. Lacus viverra vitae congue eu consequat ac felis donec. Sed pulvinar proin gravida hendrerit lectus a. Id aliquet risus feugiat in ante metus dictum at tempor. Porta lorem mollis aliquam ut porttitor leo. Diam maecenas sed enim ut sem viverra aliquet eget sit. Condimentum lacinia quis vel eros donec ac odio. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Tristique risus nec feugiat in fermentum posuere urna.
+
+</p>
+		
+	</div>
+	<div class="columns">
+		<section class="column">
+			<h2>This is column 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut sem. Sed sed risus pretium quam vulputate dignissim suspendisse. Elit sed vulputate mi sit amet. Risus nec feugiat in fermentum posuere urna nec tincidunt. Semper auctor neque vitae tempus quam. Blandit cursus risus at ultrices mi tempus imperdiet. A diam maecenas sed enim ut sem viverra. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Lorem donec massa sapien faucibus. Lacus viverra vitae congue eu consequat ac felis donec. Sed pulvinar proin gravida hendrerit lectus a. Id aliquet risus feugiat in ante metus dictum at tempor. Porta lorem mollis aliquam ut porttitor leo. Diam maecenas sed enim ut sem viverra aliquet eget sit. Condimentum lacinia quis vel eros donec ac odio. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Tristique risus nec feugiat in fermentum posuere urna.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut sem. Sed sed risus pretium quam vulputate dignissim suspendisse. Elit sed vulputate mi sit amet. Risus nec feugiat in fermentum posuere urna nec tincidunt. Semper auctor neque vitae tempus quam. Blandit cursus risus at ultrices mi tempus imperdiet. A diam maecenas sed enim ut sem viverra. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Lorem donec massa sapien faucibus. Lacus viverra vitae congue eu consequat ac felis donec. Sed pulvinar proin gravida hendrerit lectus a. Id aliquet risus feugiat in ante metus dictum at tempor. Porta lorem mollis aliquam ut porttitor leo. Diam maecenas sed enim ut sem viverra aliquet eget sit. Condimentum lacinia quis vel eros donec ac odio. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Tristique risus nec feugiat in fermentum posuere urna.</p>
+			</section>
+			<aside class="column">
+				<h2>This is column2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut sem. Sed sed risus pretium quam vulputate dignissim suspendisse. Elit sed vulputate mi sit amet. Risus nec feugiat in fermentum posuere urna nec tincidunt. Semper auctor neque vitae tempus quam. Blandit cursus risus at ultrices mi tempus imperdiet. A diam maecenas sed enim ut sem viverra. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Lorem donec massa sapien faucibus. Lacus viverra vitae congue eu consequat ac felis donec. Sed pulvinar proin gravida hendrerit lectus a. Id aliquet risus feugiat in ante metus dictum at tempor. Porta lorem mollis aliquam ut porttitor leo. Diam maecenas sed enim ut sem viverra aliquet eget sit. Condimentum lacinia quis vel eros donec ac odio. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Tristique risus nec feugiat in fermentum posuere urna.</p>
+				<img src="lotus.jpeg" alt="Lotus" width="100%">
+			</aside>
+			
+			
+		
+	</div>
+
+
+
+
+</body>
+</html>
